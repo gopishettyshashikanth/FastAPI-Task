@@ -13,13 +13,13 @@ uvicorn main:app --reload
 # API Details
 API URL : http://127.0.0.1:8000/add
 Method : POST
-#request:
+# request:
 {
   "batchid": "id0101",
   "num_list": [[1,2],[3,4]]
 }
 
-#response:
+# response:
 {
   "batchid": "id0101",
   "response": [3, 7],
@@ -28,5 +28,5 @@ Method : POST
   "completed_at": "16/06/2024 17:58:57"
 }
 
-#pytest run command
+# pytest run command
 pytest tests/main_test.py
